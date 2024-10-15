@@ -75,5 +75,9 @@
         android:id="@+id/cincoFragment"
         android:name="com.example.cumpleaosonboard.CincoFragment"
         android:label="fragment_cinco"
-        tools:layout="@layout/fragment_cinco" />
+        tools:layout="@layout/fragment_cinco" >
+        <action
+            android:id="@+id/action_cincoFragment_to_cuatroFragment"
+            app:destination="@id/cuatroFragment" />
+    </fragment>
 </navigation>

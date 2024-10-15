@@ -58,6 +58,12 @@ FragmentUnoBinding binding;
                 navController.navigate(R.id.action_unoFragment_to_dosFragment);
             }
         });
+        binding.omitir1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_unoFragment_to_cuatroFragment);
+            }
+        });
 
     }
 }
